@@ -97,11 +97,9 @@
 		C394F593223D5C9000038FE4 /* Stopwatch */ = {
 			isa = PBXGroup;
 			children = (
-				C394F594223D5C9000038FE4 /* AppDelegate.swift */,
+				C394F5C2223D5D5C00038FE4 /* Supporting Files */,
 				C394F596223D5C9000038FE4 /* ViewController.swift */,
 				C394F598223D5C9000038FE4 /* Main.storyboard */,
-				C394F59B223D5C9200038FE4 /* Assets.xcassets */,
-				C394F59D223D5C9200038FE4 /* LaunchScreen.storyboard */,
 				C394F5A0223D5C9200038FE4 /* Info.plist */,
 			);
 			path = Stopwatch;
@@ -123,6 +121,16 @@
 				C394F5B6223D5C9200038FE4 /* Info.plist */,
 			);
 			path = StopwatchUITests;
+			sourceTree = "<group>";
+		};
+		C394F5C2223D5D5C00038FE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C394F59D223D5C9200038FE4 /* LaunchScreen.storyboard */,
+				C394F594223D5C9000038FE4 /* AppDelegate.swift */,
+				C394F59B223D5C9200038FE4 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
