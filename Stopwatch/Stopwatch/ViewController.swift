@@ -19,12 +19,18 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         stopwatch.delegate = self
+        NotificationCenter.default.addObserver(self, selector: #selector(timerUpdated(notification:)), name: .timerUpdated, object: nil)
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
         updateUI()
     }
-
+    
+    @objc func timerUpdated(notification: NSNotification){
+        updateUI()
+    }
+    
     @IBAction func buttonStartStopTimerTouched(_ sender: UIButton){
         if stopwatch.isRunning{
             stopwatch.stop()

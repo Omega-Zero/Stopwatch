@@ -8,6 +8,11 @@
 
 import Foundation
 
+extension Notification.Name{
+    static let timerUpdated = Notification.Name("timerUpdated")
+}
+
+
 protocol StopwatchDelegate{
     func timerUpdated()
 }
@@ -18,6 +23,7 @@ class stopWatch{
     var timeCount = 0.0{
         didSet{
             delegate?.timerUpdated()
+            NotificationCenter.default.post(name: .timerUpdated, object: nil)
         }
     }
     
