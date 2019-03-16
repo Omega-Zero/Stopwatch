@@ -22,6 +22,9 @@
                                 <rect key="frame" x="151" y="312" width="72" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonStartStopTimerTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5rv-d2-Pqf"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9QP-3E-0Pe">
                                 <rect key="frame" x="123.5" y="148" width="128" height="66"/>
@@ -39,6 +42,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="buttonStartStop" destination="IKS-vR-ieb" id="ojf-Mj-ngv"/>
+                        <outlet property="labelTime" destination="9QP-3E-0Pe" id="4L9-kB-W8z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

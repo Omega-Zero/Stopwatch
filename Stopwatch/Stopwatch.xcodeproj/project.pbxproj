@@ -14,6 +14,7 @@
 		C394F59F223D5C9200038FE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C394F59D223D5C9200038FE4 /* LaunchScreen.storyboard */; };
 		C394F5AA223D5C9200038FE4 /* StopwatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C394F5A9223D5C9200038FE4 /* StopwatchTests.swift */; };
 		C394F5B5223D5C9200038FE4 /* StopwatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C394F5B4223D5C9200038FE4 /* StopwatchUITests.swift */; };
+		C394F5C4223D5EB700038FE4 /* stopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C394F5C3223D5EB700038FE4 /* stopWatch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C394F5B0223D5C9200038FE4 /* StopwatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopwatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C394F5B4223D5C9200038FE4 /* StopwatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchUITests.swift; sourceTree = "<group>"; };
 		C394F5B6223D5C9200038FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C394F5C3223D5EB700038FE4 /* stopWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stopWatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				C394F5C2223D5D5C00038FE4 /* Supporting Files */,
 				C394F596223D5C9000038FE4 /* ViewController.swift */,
+				C394F5C3223D5EB700038FE4 /* stopWatch.swift */,
 				C394F598223D5C9000038FE4 /* Main.storyboard */,
 				C394F5A0223D5C9200038FE4 /* Info.plist */,
 			);
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C394F5C4223D5EB700038FE4 /* stopWatch.swift in Sources */,
 				C394F597223D5C9000038FE4 /* ViewController.swift in Sources */,
 				C394F595223D5C9000038FE4 /* AppDelegate.swift in Sources */,
 			);
